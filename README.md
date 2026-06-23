@@ -1,4 +1,4 @@
-# Pokédex 🔴
+# Pokédex 
 
 Aplicação React que consome a [PokeAPI](https://pokeapi.co/) para listar e exibir detalhes dos Pokémon, com visual baseado no tipo primário de cada um.
 
