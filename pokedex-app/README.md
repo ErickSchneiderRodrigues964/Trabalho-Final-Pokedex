@@ -1,26 +1,49 @@
-# Pokédex React + PokeAPI
+# Pokédex 
 
-Projeto em React usando hooks, Fetch API, CSS separado e componentes organizados.
+Aplicação React que consome a [PokeAPI](https://pokeapi.co/) para listar e exibir detalhes dos Pokémon, com visual baseado no tipo primário de cada um.
+
+## Tecnologias
+
+- React (com hooks)
+- Fetch API
+- CSS modular por componente
+
+## Pré-requisitos
+
+- Node.js instalado
 
 ## Como rodar
 
 ```bash
+# Entre na pasta do projeto
+cd pokedex-app
+
+# Instale as dependências
 npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-## O que o projeto faz
+## Funcionalidades
 
 - Lista os 20 primeiros Pokémon da PokeAPI
 - Exibe card com sprite, nome, número e tipos
-- Usa cor de destaque baseada no tipo primário
-- Abre uma tela de detalhes ao clicar no card
-- Mostra sprite ampliado, nome, número, tipos, espécie, altura, peso, habilidades e stats com barras visuais
-- Possui estados de loading e error
+- Cor de destaque dinâmica baseada no tipo primário
+- Tela de detalhes ao clicar no card, com:
+  - Sprite ampliado
+  - Nome, número e tipos
+  - Espécie, altura e peso
+  - Habilidades
+  - Stats com barras visuais
+- Estados de carregamento e erro tratados
 
-## Estrutura
+## Estrutura do projeto
 
-- `src/components` → componentes de interface
-- `src/hooks` → lógica de busca na API
-- `src/utils` → funções auxiliares
-- `src/styles.css` → estilos globais
+```
+src/
+├── components/   → componentes de interface
+├── hooks/        → lógica de busca na API
+├── utils/        → funções auxiliares
+└── styles.css    → estilos globais
+```
