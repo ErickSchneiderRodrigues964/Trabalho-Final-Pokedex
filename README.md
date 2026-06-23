@@ -16,7 +16,7 @@ Aplicação React que consome a [PokeAPI](https://pokeapi.co/) para listar e exi
 
 ```bash
 # Entre na pasta do projeto
-cd pokedex-app
+cd Trabalho-Final-Pokedex-main/pokedex-app
 
 # Instale as dependências
 npm install
